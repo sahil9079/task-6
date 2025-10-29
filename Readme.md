@@ -16,8 +16,8 @@ Deploy a simple static HTML website using GitHub Pages.
 5. Deployed and verified live website link.
 
 ## 🔗 Deliverables
-- **Live Website:** 
-- **GitHub Repository:** 
+- **Live Website:** https://sahil9079.github.io/task-6/
+- **GitHub Repository:** https://github.com/sahil9079/task-6
 
 ## 💡 Outcome
 Learned how to:
