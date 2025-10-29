@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sahil Khan - DevOps Engineer Portfolio</title>
+
   <style>
+    /* ===== GLOBAL STYLE ===== */
     body {
       font-family: "Segoe UI", Arial, sans-serif;
       background: #f4f7fa;
@@ -12,75 +14,111 @@
       padding: 0;
       color: #333;
     }
+
+    /* ===== HEADER ===== */
     header {
-      background: #007bff;
+      background: linear-gradient(135deg, #0066ff, #0047b3);
       color: white;
       text-align: center;
-      padding: 50px 20px;
+      padding: 80px 20px 60px;
     }
+
+    header h1 {
+      font-size: 3.5em;
+      font-weight: 900;
+      letter-spacing: 2px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
+    }
+
+    header p {
+      margin: 6px 0;
+      font-size: 1.1em;
+    }
+
+    .contact a {
+      color: #fff;
+      font-weight: 500;
+    }
+
+    .contact a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== SECTION CARDS ===== */
     section {
       max-width: 900px;
       margin: 40px auto;
       background: white;
       padding: 30px;
       border-radius: 12px;
-      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
-    h1, h2 {
+
+    h2 {
       color: #007bff;
       margin-bottom: 10px;
+      border-bottom: 2px solid #007bff;
+      display: inline-block;
+      padding-bottom: 5px;
     }
+
     h3 {
       color: #222;
       margin-top: 20px;
     }
+
     ul {
       list-style-type: disc;
       margin-left: 25px;
+      line-height: 1.6;
     }
+
     a {
       color: #007bff;
       text-decoration: none;
     }
+
     a:hover {
       text-decoration: underline;
     }
+
     footer {
       text-align: center;
       color: gray;
-      padding: 20px;
+      padding: 25px;
       background: #f8f9fa;
       margin-top: 40px;
     }
-    .contact {
-      text-align: center;
-      margin-top: 10px;
-      line-height: 1.6;
-    }
   </style>
 </head>
-<body>
 
+<body>
+  <!-- ===== HEADER SECTION ===== -->
   <header>
-    <h1>Sahil Khan</h1>
+    <h1>SAHIL KHAN</h1>
     <p>DevOps & Cloud Engineer | Jaipur, India</p>
     <p class="contact">
-      📧 <a href="mailto:sahilk.x3@gmail.com">sahilk.x3@gmail.com</a> | 📞 +91-9079105795<br>
+      📧 <a href="mailto:sahilk.x3@gmail.com">sahilk.x3@gmail.com</a> |
+      📞 +91-9079105795 <br />
       🌐 <a href="https://github.com/sahil9079" target="_blank">GitHub</a> |
       💼 <a href="https://linkedin.com/in/sahil-khan" target="_blank">LinkedIn</a>
     </p>
   </header>
 
+  <!-- ===== CAREER OBJECTIVE ===== -->
   <section>
     <h2>Career Objective</h2>
     <p>
       I’m <strong>Sahil Khan</strong>, an aspiring DevOps and Cloud Engineer with hands-on experience in
-      AWS, Docker, Kubernetes, Jenkins, CI/CD, and Terraform.
-      I am passionate about automation, container orchestration, and cloud technologies.
-      My goal is to grow as a Site Reliability or DevOps Engineer by contributing to scalable and automated infrastructure.
+      AWS, Docker, Kubernetes, Jenkins, CI/CD, and Terraform. Passionate about automation, container orchestration,
+      and cloud technologies. My goal is to grow as a Site Reliability or DevOps Engineer by contributing to scalable
+      and automated infrastructure.
     </p>
   </section>
 
+  <!-- ===== SKILLS ===== -->
   <section>
     <h2>Skills</h2>
     <ul>
@@ -94,6 +132,7 @@
     </ul>
   </section>
 
+  <!-- ===== EXPERIENCE ===== -->
   <section>
     <h2>Experience</h2>
     <h3>DevOps Intern — Shiwansh Solutions (Remote)</h3>
@@ -105,6 +144,7 @@
     </ul>
   </section>
 
+  <!-- ===== PROJECTS ===== -->
   <section>
     <h2>Projects</h2>
 
@@ -130,15 +170,18 @@
     </ul>
   </section>
 
+  <!-- ===== EDUCATION ===== -->
   <section>
     <h2>Education</h2>
-    <p><strong>Indira Gandhi National Open University — MCA (Computer Science)</strong><br>
-    August 2024 – Present</p>
+    <p>
+      <strong>Indira Gandhi National Open University — MCA (Computer Science)</strong><br />
+      August 2024 – Present
+    </p>
   </section>
 
+  <!-- ===== FOOTER ===== -->
   <footer>
     © 2025 Sahil Khan | Built for Elevate Internship Task 6 using GitHub Pages
   </footer>
-
 </body>
 </html>
